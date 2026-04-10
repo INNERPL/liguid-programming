@@ -381,3 +381,6 @@ def demo():
     for r in orchestrator.active_response.kill_history[-3:]:
         print(f"  {r['action']} – {r['reason']}")
 
+
+if __name__ == "__main__":
+    demo()
